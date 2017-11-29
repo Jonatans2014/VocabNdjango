@@ -21,9 +21,7 @@ from vocabnoteapp import views
 from rest_framework.urlpatterns import format_suffix_patterns
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-
-
-    url(r'^snippets/$', views.UserList.as_view()),
+    url(r'^Wordlist/$', views.UserList.as_view()),
 ]
 
 
