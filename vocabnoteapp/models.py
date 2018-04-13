@@ -5,10 +5,8 @@ from django.db import models
 class User(models.Model):
     User_Auth_ID = models.IntegerField()
     User_Name = models.CharField(max_length=100)
-    Age = models.IntegerField()
-    User_Picture = models.ImageField()
     Email = models.EmailField(max_length=100)
-    Gender = models.CharField(max_length=100)
+
 
 
     def __str__(self):
